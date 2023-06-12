@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
         TextView tv=findViewById(R.id.tv_name);
         tv.setText("This is a textview");
         tv.setText("This is my TextView");
-        tv.setText("this is vishwas vf");
+        tv.setText("This is a textview");
+        tv.setText("This is my TextView");
+        tv.setText("This is a textview");
+        tv.setText("This is my TextView");
     }
 }
