@@ -1,9 +1,9 @@
 package com.example.githubdemo;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,12 +11,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView tv=findViewById(R.id.tv_name);
-        tv.setText("This is a textview");
-        tv.setText("This is my TextView");
-        tv.setText("This is a textview");
-        tv.setText("This is my TextView");
-        tv.setText("This is a textview");
-        tv.setText("This is my TextView");
+        TextView tv = findViewById(R.id.tv_name);
+        tv.setText("This is a new");
+        tv.setText("This is a new");
+        tv.setText("This is a new");
+        tv.setText("This is a new");
+
     }
 }
